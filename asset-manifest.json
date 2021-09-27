@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/quizup%20%20/static/css/main.4ba47c4f.chunk.css",
-    "main.js": "/quizup%20%20/static/js/main.a34f52fd.chunk.js",
-    "main.js.map": "/quizup%20%20/static/js/main.a34f52fd.chunk.js.map",
+    "main.js": "/quizup%20%20/static/js/main.b9283f1d.chunk.js",
+    "main.js.map": "/quizup%20%20/static/js/main.b9283f1d.chunk.js.map",
     "runtime-main.js": "/quizup%20%20/static/js/runtime-main.3f2ea67e.js",
     "runtime-main.js.map": "/quizup%20%20/static/js/runtime-main.3f2ea67e.js.map",
     "static/js/2.55af3019.chunk.js": "/quizup%20%20/static/js/2.55af3019.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.3f2ea67e.js",
     "static/js/2.55af3019.chunk.js",
     "static/css/main.4ba47c4f.chunk.css",
-    "static/js/main.a34f52fd.chunk.js"
+    "static/js/main.b9283f1d.chunk.js"
   ]
 }
