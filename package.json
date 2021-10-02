@@ -1,6 +1,5 @@
 {
   "name": "quizup",
-  // "homepage": "https://tharsh95.github.io/quizup  ",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
