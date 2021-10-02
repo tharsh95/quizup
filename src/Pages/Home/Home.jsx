@@ -25,11 +25,11 @@ const Home = ({ name, setName, fetchQuestions }) => {
     return (
         <div className='content'>
             <div className="settings">
-                <span style={{ fontSize: 30 }}>Quiz Settings</span>
+                <span style={{ fontSize: 30, marginBottom:50 }}>Quiz Settings</span>
                 <div className="settings_select">
                     {error && <Error>Please Fill all the fields</Error>}
                     <TextField
-                        style={{ marginBottom: 25 }}
+                        style={{ marginBottom: 25,width:"50vw" }}
                         label="Enter your name"
                         variant="outlined"
                         onChange={(e) => setName(e.target.value)}
@@ -69,7 +69,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
                     <Button onClick={handleSubmit} variant="contained" color="primary">START QUIZ</Button>
                 </div>
             </div>
-            <img src="./quiz.svg" className="banner" alt="" />
+            {/* <img src="./quiz.svg" className="banner" alt="" /> */}
         </div>
     )
 }

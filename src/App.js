@@ -19,10 +19,11 @@ function App() {
     setData(data.results)
   }
   return (<>
-    <div className="app" style={{ backgroundImage: 'url("/back.jpg")' }}>
+    <div className="app" style={{ backgroundColor:"lightblue" }}>
       <Header />
+      
       <Switch>
-        <Route path='/' exact>
+      <Route path= '/' exact>
           <Home name={name} setName={setName} fetchQuestions={fetchQuestions} />
         </Route>
         <Route path='/quiz' exact>
@@ -36,6 +37,7 @@ function App() {
         </Route>
 
       </Switch>
+      
     </div>
     <Footer />
   </>
